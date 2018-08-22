@@ -1,0 +1,26 @@
+<% include _header %>
+
+<h1>Registro</h1>
+
+<form action="/signup" method="post">
+    <div class="form-group">
+        <input name="username" type="text"class="form-control"
+        placeholder="Nombre de ususario" required autofocus/>
+    </div>
+    <div class="form-group">
+        <input name="password" type="password" class="form-control"
+        placeholder="Contraseña" required/>
+    </div>
+    <div class="form-group">
+        <label for="sel1">Roles:</label>
+        <select name="role" class="form-control" id="sel1">
+          <option>Zombie-King</option>
+          <option>Zombie-Queen</option>
+          <option>Zombie-Soldier</option>
+          <option>invitado</option>
+        </select>
+      </div>
+    <input type="submit" value="Registrate" class="btn btn-primary btn-block"/>
+</form>
+
+<% include _footer %>

@@ -1,0 +1,123 @@
+[{
+    "group": "invitado",
+    "permissions": [{
+        "resource": "login",
+        "methods": ["GET", "POST"],
+        "action": "allow"
+    },
+    {
+        "resource": "logout",
+        "methods": ["GET", "POST"],
+        "action": "allow"
+    },
+{
+    "resource": "signup",
+        "methods": ["GET", "POST","PUT"],
+        "action": "allow"
+},
+{
+    "resource": "",
+        "methods": ["GET", "POST", "PUT"],
+        "action": "allow"
+}]
+},{
+    "group": "Zombie-King",
+    "permissions": [{
+        "resource": "login",
+        "methods": ["GET", "POST","PUT"],
+        "action": "allow"
+    },
+    {
+        "resource": "logout",
+        "methods": ["GET", "POST","PUT"],
+        "action": "allow"
+    },
+    {
+        "resource": "signup",
+        "methods": ["GET", "POST","PUT"],
+        "action": "allow"
+    },
+    {
+        "resource": "",
+        "methods": ["GET", "POST","PUT"],
+        "action": "allow"
+    },
+    {
+        "resource": "datos",
+        "methods": ["GET", "POST","PUT"],
+        "action": "allow"
+    },
+    {
+        "resource": "edit",
+        "methods": ["GET", "POST","PUT"],
+        "action": "allow"
+    },
+    {
+        "resource": "interfaces",
+        "methods": ["GET", "POST","PUT"],
+        "action": "allow"
+    }]
+},{
+    "group": "Zombie-Queen",
+    "permissions": [{
+        "resource": "login",
+        "methods": ["GET", "POST"],
+        "action": "allow"
+    },
+    {
+        "resource": "logout",
+        "methods": ["GET", "POST"],
+        "action": "allow"
+    },
+    {
+        "resource": "signup",
+        "methods": ["GET", "POST","PUT"],
+        "action": "allow"
+    },
+    {
+        "resource": "",
+        "methods": ["GET", "POST"],
+        "action": "allow"
+    },
+    {
+        "resource": "datos",
+        "methods": ["GET", "POST"],
+        "action": "allow"
+    },
+    {
+        "resource": "edit",
+        "methods": ["GET", "POST","PUT"],
+        "action": "allow"
+    }]
+},{
+    "group": "Zombie-Soldier",
+    "permissions": [{
+        "resource": "login",
+        "methods": ["GET", "POST"],
+        "action": "allow"
+    },
+    {
+        "resource": "logout",
+        "methods": ["GET", "POST"],
+        "action": "allow"
+    },
+    {
+        "resource": "signup",
+        "methods": ["GET", "POST","PUT"],
+        "action": "allow"
+    },
+    {
+        "resource": "",
+        "methods": ["GET", "POST"],
+        "action": "allow"
+    },
+    {
+        "resource": "interfaces",
+        "methods": ["GET", "POST","PUT"],
+        "action": "allow"
+    },    {
+        "resource": "datos",
+        "methods": ["GET", "POST"],
+        "action": "allow"
+    }]
+}]
